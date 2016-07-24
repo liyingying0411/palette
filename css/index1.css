@@ -1,0 +1,104 @@
+body,ul,li,input,h1,h2,h3,h4,h5,p{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	height: 100%;
+}
+.iconfont{
+	font-size: 30px;
+	color:#000;
+	width: 38px;
+	height: 38px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	box-sizing:border-box;
+	text-align: center;
+	line-height: 38px;
+}
+.iconfont input{
+	height: 30px;
+	width:40px;
+	margin-right: 10px;
+}
+.active.iconfont{	
+	border: 1px solid rgba(0,0,0,0.6);
+	box-shadow: 0 0 1px 3px rgba(0,0,0,0.6) inset;
+}
+.actives.iconfont:active{
+	border: 1px solid rgba(0,0,0,0.6);
+	box-shadow: 0 0 1px 3px rgba(0,0,0,0.6) inset;
+}
+.box{
+	height: 100%;
+	margin-left: 120px;
+}
+.left{
+	width: 120px;
+	height: 100%;
+	float: left;
+	margin-left: -120px;
+	background: #E5F0FA;
+}
+.right{
+	width: 100%;
+	height: 100%;
+	float: right;
+	position: relative;
+	background: #fff;
+}
+.copy{
+	border:2px dashed plum;
+	position:absolute;
+	left:30px;
+	top: 20px;
+	z-index: 999;
+}
+canvas{
+	border:2px dashed plum;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+}
+.text,.num{
+	width: 300px;
+	height: 190px;
+	background: #D3E5F7;
+	border: 1px solid #343434;
+	/*盒子上下左右居中对齐*/
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	box-sizing:border-box;
+	padding-top: 20px;
+	text-align: center;
+	display: none;
+	z-index: 999;
+}
+.text input,.num input{
+	height: 25px;
+	margin-top: 10px;
+}
+.text button,.num button{
+	height: 30px;
+	width: 60px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.num{
+	height: 150px;
+}
+.leftfour{
+	width: 100%;
+	box-sizing:border-box;
+	text-align: center;
+}
+.leftfour input{
+	width: 100px;
+}
